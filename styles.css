@@ -19,6 +19,10 @@ body {
   background-size: cover;
 }
 
+section {
+  padding: 6rem;
+}
+
 a {
   text-decoration: none;
   color: #eee;
@@ -85,6 +89,10 @@ img {
   font-weight: 300;
 }
 
+.has-margin-right {
+  margin-right: 5rem;
+}
+
 /*Header*/
 
 header {
@@ -119,7 +127,7 @@ li {
 
 .nav-link {
   font-family: "Rock Salt", sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   padding: 1rem;
 }
 
@@ -306,6 +314,52 @@ li {
 }
 
 /*portfolio*/
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-img {
+  width: 50rem;
+  flex: 1;
+}
+
+.portfolio-description {
+  flex: 1;
+}
+
+.portfolio-description h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.3;
+}
+
+.portfolio-description h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.portfolio-description .cta {
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #3882ff;
+  transition: all 650ms;
+}
+
+.portfolio-description .cta:hover {
+  color: #2f67cd;
+}
 
 /*experience*/
 
